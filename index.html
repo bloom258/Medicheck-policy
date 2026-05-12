@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메디체크 개인정보처리방침</title>
+    <style>
+        :root {
+            --pastel-bg: #F9FCF9;
+            --pastel-card: #FFFFFF;
+            --pastel-primary: #6B9080;
+            --pastel-secondary: #A4C3B2;
+            --pastel-accent: #ECA392;
+            --pastel-text: #4A4A4A;
+            --pastel-border: #E2E8E4;
+        }
+        body { 
+            font-family: 'SUIT', 'Cafe Dongdong', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; 
+            line-height: 1.7; 
+            padding: 20px; 
+            color: var(--pastel-text); 
+            background-color: var(--pastel-bg);
+            max-width: 800px; 
+            margin: auto; 
+            word-break: keep-all; 
+        }
+        h1 { 
+            color: var(--pastel-primary); 
+            text-align: center;
+            padding-bottom: 5px; 
+            margin-bottom: 5px;
+            font-size: 1.6rem;
+        }
+        .intro-text {
+            text-align: center;
+            color: var(--pastel-secondary);
+            font-weight: bold;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--pastel-secondary);
+            padding-bottom: 15px;
+            font-size: 1rem;
+        }
+        h2 { 
+            color: var(--pastel-primary); 
+            background-color: #F1F6F2;
+            margin-top: 35px; 
+            padding: 12px 15px; 
+            border-radius: 8px;
+            font-size: 1.15rem;
+            border-left: 5px solid var(--pastel-secondary);
+        }
+        ul { padding-left: 25px; margin-top: 10px; }
+        li { margin-bottom: 10px; }
+        .highlight { font-weight: bold; color: var(--pastel-accent); }
+        .security-box { 
+            background-color: var(--pastel-card); 
+            border: 1px solid var(--pastel-border); 
+            padding: 20px; 
+            margin: 20px 0; 
+            border-radius: 12px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+        .link-text { color: var(--pastel-primary); text-decoration: underline; font-weight: bold; }
+        .footer { 
+            margin-top: 50px; 
+            border-top: 1px solid var(--pastel-border); 
+            padding-top: 20px; 
+            text-align: right;
+            color: #888; 
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>메디체크 개인정보처리방침</h1>
+    <p class="intro-text">메디체크는 사용자의 복용 기록과 정원 데이터를 소중히 생각합니다.</p>
+
+    <div class="security-box">
+        <strong style="color: var(--pastel-primary); font-size: 1.1rem;">💡 핵심 요약 및 보안 선언:</strong><br><br>
+        메디체크는 사용자의 영양제/약 복용 기록 및 정원 가꾸기 데이터를 <strong>개발사 서버로 전송하지 않으며, 기기 내부에 저장</strong>합니다.<br>
+        단, 본 앱은 무료 서비스 제공을 위해 광고를 포함할 수 있으며, 이 과정에서 개인을 직접 식별하지 않는 범위의 기기 정보, 광고 ID, 오류 로그 등이 자동으로 처리될 수 있습니다.
+    </div>
+
+    <h2>1. 개인정보의 처리 목적</h2>
+    <ul>
+        <li>영양제/약 복용 기록 관리 및 정원 가꾸기(꽃 피우기) 기능 제공</li>
+        <li>홈 화면 위젯 연동 및 실시간 상태 업데이트 제공</li>
+        <li>본 앱은 무료 서비스 제공을 위해 광고를 포함할 수 있습니다.</li>
+        <li>앱 서비스 안정성 확보 및 시스템 오류 분석</li>
+    </ul>
+
+    <h2>2. 처리하는 데이터 및 수집 방법</h2>
+    <ul>
+        <li>
+            <strong>복용 및 정원 데이터 (기기 내부 저장):</strong><br>
+            영양제 목표 횟수, 현재 복용 횟수, 꽃 성장 단계, 과거 정원 기록 등은 개발사 서버로 전송되지 않고 <strong>오직 사용자의 스마트폰 내부(로컬 DB)에만 저장</strong>됩니다.
+        </li>
+        
+        <li>
+            <strong class="highlight">데이터 자동 백업:</strong><br>
+            스마트폰 분실이나 기기 변경, 앱 재설치 시에도 정원 기록이 유지될 수 있도록 <strong>Android 시스템의 Google 자동 백업 기능을 통해 사용자의 Google 계정에 백업될 수 있습니다.</strong>
+        </li>
+
+        <li>
+            <strong>분석 및 광고 데이터:</strong><br>
+            앱 구동 중 발생하는 오류 로그, 기기 정보, 광고 ID(ADID) 등은 원활한 서비스 제공 및 광고 게재를 위해 <strong>개인을 직접 식별하지 않는 범위에서 자동으로 처리될 수 있습니다.</strong>
+        </li>
+    </ul>
+
+    <h2>3. 제3자 서비스 이용 및 데이터 활용</h2>
+    <ul>
+        <li>
+            <strong>Google LLC (AdMob, Firebase 등)</strong><br>
+            앱 내 광고 게재 및 서비스 품질 개선을 위해 Google의 서비스를 이용합니다. 해당 데이터는 Google의 정책에 따라 처리됩니다.<br>
+            <a href="https://policies.google.com/privacy" class="link-text" target="_blank">
+                Google 개인정보처리방침 확인하기
+            </a>
+        </li>
+    </ul>
+
+    <h2>4. 앱 삭제 및 데이터 파기</h2>
+    <ul>
+        <li>
+            <strong>데이터 삭제:</strong><br>
+            메디체크의 모든 기록은 기기 내부에 저장되므로, <strong>앱 삭제 또는 스마트폰 설정에서 앱의 '데이터 지우기'를 실행하시면 기기 내부 데이터는 삭제됩니다.</strong>
+        </li>
+
+        <li class="highlight">
+            클라우드 백업 데이터 관리:
+            <ul style="color: var(--pastel-text); font-weight: normal;">
+                <li>기기에서 앱을 삭제하더라도 Google 계정에 자동 백업된 데이터가 남아있을 수 있습니다.</li>
+                <li>백업된 데이터는 사용자의 스마트폰 [설정] > [Google] > [백업] 메뉴에서 직접 관리 및 삭제하실 수 있습니다.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>5. 이용자의 권리</h2>
+    <ul>
+        <li>스마트폰 설정을 통한 광고 ID 재설정 및 맞춤형 광고 차단 가능</li>
+        <li>언제든지 앱 삭제를 통하여 데이터 처리 및 수집 동의 철회 가능</li>
+    </ul>
+
+    <h2>6. 문의처</h2>
+    <ul>
+        <li>개발사: 블룸소프트 (BloomSoft)</li>
+        <li>이메일: bloom51486@gmail.com</li>
+    </ul>
+
+    <div class="footer">
+        시행일: 2026년 5월 13일<br>
+        최종 개정일: 2026년 5월 13일
+    </div>
+</body>
+</html>
